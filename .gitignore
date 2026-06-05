@@ -1,0 +1,13 @@
+# 1. Ignore ALL files inside any subdirectories
+*/*
+
+# 2. Un-ignore the directories themselves (so Git can look inside them)
+!*/
+
+# 3. Un-ignore all .cpp files inside those directories
+!*/*.cpp
+
+# 4. Explicitly ignore specific folders and files
+.vs/
+x64/
+*.slnx
